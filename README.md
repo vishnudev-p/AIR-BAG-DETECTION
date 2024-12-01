@@ -41,7 +41,7 @@ To use the trained model locally or on an edge device, follow these steps:
 3. Run the detection script:  
 
     ```bash  
-    python TFLite_airbag_detection.py --modeldir=custom_model_lite  
+    python TFLite_detection_Alert.py --modeldir=custom_model_lite  
     ```  
 
 4. Configure the notification settings in the `config.json` file to include emergency contact details.  
